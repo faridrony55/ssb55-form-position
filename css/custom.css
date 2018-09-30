@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+*{
+
+box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+
+.signup-form-section{
+    /* background: #0093FF; */
+    overflow: hidden;
+}
+.logo-area{
+    width: 40%;
+    float: left;
+    background: #5CBAFF;
+    height: 100vh;
+    padding: 100px;
+    position: relative;
+}
+.logo{
+    width: 150px;
+}
+.logo img{}
+.graphic-img{position: absolute;width: 70%;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+.graphic-img img{}
+
+
+.signup-form{
+    width: 60%;
+    float: left;
+    background: #0093FF;
+    height: 100vh;
+    position: relative;
+}
+.form-section{
+    width: 350px;
+    margin: 0 auto;
+    /* margin-top: 200px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.form-section h1{
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 100;
+}
+.form-section p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 10px 0 40px;
+}
+.form-section strong{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 15px;
+    display: block;
+}
+
+form{}
+form input{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 100;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+form input[type="submit"]{
+
+width: auto;
+
+text-transform: uppercase;
+
+font-weight: 500;
+
+background: #fff;
+
+color: #0093ff;
+
+padding: 10px 20px;
+}
+
+.register_option{
+    color: #fff;
+    margin-top: 50px;
+}
+.register_option span{
+    font-family: 'Open Sans Condensed', sans-serif;
+    float: left;
+}
+.register_option ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.register_option ul li{
+    float: left;
+    list-style: none;
+}
+.register_option ul li a{
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    padding: 0 10px;
+}
+
+ 
